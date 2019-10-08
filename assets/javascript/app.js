@@ -40,25 +40,30 @@ var triviaQuestions = [
     theAnswer: "Craig Mammalton"
   },
   {
-    question: "In the episode 'Krabby Road', what was the name of Spongebob's band?"
-      answers: [
-
+    question: "In the episode 'Krabby Road', what was the name of Spongebob's band?",
+    answers: [
+      'Plankton and the Patty Snatchers',
+      'Plankton and the Patty stealers',
+      'Spongebob and the Boys',
+      'Jelly Jammers',
     ],
-    theAnswer:
+    theAnswer: "Plankton and the Patty Stealers",
   },
   {
-    question:
-      answers: [
-
+    question: "Patrick has a sibling.",
+    answers: [
+      'true',
+      'false'
     ],
-    theAnswer:
+    theAnswer: 'false'
   },
   {
-    question:
-      answers: [
-
+    question: "The first episode to feature Bubble Bass was 'Pickles'.",
+    answers: [
+      'true',
+      'false'
     ],
-    theAnswer:
+    theAnswer: 'true'
   }
 ]
 var progress = 15;
